@@ -22,6 +22,9 @@ android {
 releaseConfiguration {
   buildServerUrl = "test"
   buildServerApiToken = "test"
+  workflowForDevelop = "future_build_and_upload_develop"
+  workflowForAcceptance = "build_and_upload_acceptance"
+  workflowForProduction = ""
 }
 
 dependencies {
